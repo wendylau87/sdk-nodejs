@@ -12,7 +12,7 @@
 
 ## DB Migration
 
-Adiraku SDK-Node using [db-migrate](https://db-migrate.readthedocs.io/en/latest/) for database migration.
+SDK-Node using [db-migrate](https://db-migrate.readthedocs.io/en/latest/) for database migration.
 
 #### How to create new table.
 ```sh
