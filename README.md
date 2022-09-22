@@ -1,9 +1,9 @@
-# Backend NodeJS SDK for microservices
-#### _Main library for nodejs Backend Microservices Development_
+# SDK NodeJS
+#### _SDK build from NodeJS for Microservices Development_
 
 ## Main Features
 - Logging with or without context using pino logger.
-- Scheduler with partition.
+- Built-in scheduler support multi pod in kubernetes and multi partition.
 - MySQL Client using Sequelize
 - Redis Client
 - Kafka Client
