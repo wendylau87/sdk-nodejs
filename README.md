@@ -1,5 +1,5 @@
-# ADIRAKU SDK-NODE
-#### _Main library for Adiraku Backend Development_
+# Backend NodeJS SDK for microservices
+#### _Main library for nodejs Backend Microservices Development_
 
 ## Main Features
 - Logging with or without context using pino logger.
