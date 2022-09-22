@@ -1,0 +1,66 @@
+service: "ms-sdk-node"
+environment: "localhost"
+application:
+  logger:
+    level: "info"
+  kafka:
+    consumer:
+      heartbeat_timeout: "3000"
+    brokers:
+      broker1:
+        host: "askyourfriend"
+        port: "askyourfriend"
+      broker2:
+        host: "askyourfriend"
+        port: "askyourfriend"
+  redis:
+    host: "examplehost"
+    port: "exampleport"
+    max_retry: "3"
+    retry_interval: "1000"
+  consul:
+    host: "examplehost"
+    port: "exampleport"
+  database:
+    mysql:
+      name: "ms_sdk_node"
+      host: "example-host"
+      username: "askyourfriend"
+      password: "askyourfriend"
+      port: "askyourfriend"
+      logging: "true"
+      connect_timeout: "10000"
+      pool:
+        max: "3000"
+        min: "0"
+        acquire: "10000"
+        idle: "30000"
+        idle_timeout: "3000"
+        evict: "30000"
+      timezone: "+07:00"
+business:
+  usecase:
+    cashback:
+      kaspro_bp: "example"
+  domain:
+    aol:
+      api_base_url: "example"
+    kaspro:
+      path_user_inquiry: "example"
+scheduler:
+  max_count: "4"
+  min_count: "3"
+  pooling_interval: "3000"
+  idle_timeout: "2000"
+  min_pod_count: "3"
+  task:
+    example_topic:
+      name: "example_topic"
+      max_partition: "8"
+      worker_count: "2"
+      interval: "5123"
+    example_topic_2:
+      name: "example_topic_2"
+      max_partition: "8"
+      worker_count: "2"
+      interval: "5431"

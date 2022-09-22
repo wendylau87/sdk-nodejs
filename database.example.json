@@ -1,0 +1,11 @@
+{
+  "defaultEnv": "local",
+  "local": {
+    "driver": "mysql",
+    "user": "askyourfriend",
+    "password": "askyourfriend",
+    "database": "askyourfriend",
+    "host": "askyourfriend"
+  },
+  "sql-file": true
+}
