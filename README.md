@@ -4,11 +4,12 @@
 ## Main Features
 - Logging with or without context using pino logger.
 - Built-in scheduler support multi pod in kubernetes and multi partition.
-- MySQL Client using Sequelize
-- Redis Client
-- Kafka Client
-- UUID Generator
-- Database Migration tool
+- Centralize configuration using consul.
+- MySQL Client using Sequelize.
+- Redis Client.
+- Kafka Client.
+- UUID Generator.
+- Database Migration tool.
 
 ## DB Migration
 
